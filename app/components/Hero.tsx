@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
         <div className="lg:max-w-[445px]">
           <div className="hero_banner_right_inner relative">
-            <video className="w-full h-full" loop muted playsInline>
+            <video className="w-full h-full" loop muted playsInline autoPlay>
               <source
                 src="https://cdn.shopify.com/videos/c/o/v/b6a8502f72434d709a4673e07fcf8f16.mp4"
                 type="video/mp4"
