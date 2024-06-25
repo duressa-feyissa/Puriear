@@ -25,8 +25,7 @@ To get this project running locally, follow these steps:
 ```bash
 git clone https://github.com/duressa-feyissa/Puriear.git
 
-# Navigate into the project directory
-cd puriear-landing-page
+cd Puriear
 s
 npm install
 
