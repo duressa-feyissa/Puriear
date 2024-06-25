@@ -1,13 +1,11 @@
 import Image from "next/image";
-import bag from "../../public/bag.svg";
-import menu from "../../public/menu.svg";
 
 const Header = () => {
   return (
     <section className="bg-white flex flex-row items-center">
       <div className="container mx-auto px-4 sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl gap-y-12 lg:gap-8  flex justify-between items-center my-4">
         <div className="menu-icon hidden">
-          <Image src={menu} alt="menu" width={24} />
+          <Image src={"/menu.svg"} alt="menu" width={24} height={24} />
         </div>
         <div>
           <Image
@@ -41,7 +39,13 @@ const Header = () => {
         </div>
         <div>
           <button className="bg-[#d4840b] hover:bg-white text-lg font-normal text-white hover:text-[#d4840b] leading-[1.5] capitalize px-5 md:px-6 py-3 md:py-4 rounded-lg border border-[#d4840b] flex justify-center gap-x-3 ">
-            <Image src={bag} alt="bag" className="w-5" />
+            <Image
+              src={"/bag.svg"}
+              alt="bag"
+              className="w-5"
+              width={24}
+              height={24}
+            />
             <p className="text-nowrap">Buy Now</p>
           </button>
         </div>

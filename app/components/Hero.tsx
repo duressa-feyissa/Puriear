@@ -1,5 +1,5 @@
+import star from "@/public/star.svg";
 import Image from "next/image";
-import image from "../../public/star_svg.svg";
 import Payments from "./ui/Payments";
 import { Tooltip } from "./ui/Tooltip";
 
@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex gap-8">
             <Tooltip />
             <div className="flex flex-col justify-center">
-              <Image src={image} alt="Hero Image" />
+              <Image src={star} alt="Hero Image" />
               <p className="text-base  lg:text-lg font-medium text-gray-600 leading-[1.5] capitalize">
                 20000+ Satisfied Customers
               </p>

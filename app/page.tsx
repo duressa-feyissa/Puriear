@@ -1,4 +1,5 @@
 import Doctors from "./components/Doctors";
+import Footer from "./components/Footer";
 import Future from "./components/Future";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -12,6 +13,7 @@ export default function Page() {
       <Future />
       <Slider />
       <Doctors />
+      <Footer />
     </main>
   );
 }

@@ -1,7 +1,7 @@
 "use-client;";
+import arrow from "@/public/arrow.svg";
+import review from "@/public/review.svg";
 import Image from "next/image";
-import arrow from "../../public/arrow.svg";
-import image from "../../public/review.svg";
 import ParallelSlider from "./ui/ParallelSlider";
 import Payments from "./ui/Payments";
 import SelectProduct from "./ui/SelectProduct";
@@ -38,7 +38,7 @@ const Slider = () => {
           <div className="my-3">
             <div className="flex items-center">
               <span>
-                <Image src={image} alt="review" />
+                <Image src={review} alt="review" />
               </span>
               <p className="text-lg font-bold font-quicksand mb-0 ml-2 text-black">
                 20,146 Reviews

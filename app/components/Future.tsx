@@ -1,7 +1,7 @@
+import cancel from "@/public/cancel.svg";
+import check from "@/public/check.svg";
 import Image from "next/image";
 import React from "react";
-import cancel from "../../public/cancel.svg";
-import check from "../../public/check.svg";
 
 type CustomCSSProperties = React.CSSProperties & {
   "--percentage"?: string;
