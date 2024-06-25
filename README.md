@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Puriear Landing Page
 
-## Getting Started
+This repository contains the front-end code for the Puriear landing page, designed to promote an innovative solution for earwax buildup removal. The page includes a hero section and a footer, designed with responsiveness in mind to ensure a seamless user experience across devices.
 
-First, run the development server:
+## Features
+
+- **Hero Section:** Highlights the main value proposition and features an engaging call-to-action button.
+- **Responsive Design:** Utilizes Tailwind CSS for a layout that adjusts to screen size and device type.
+- **Mobile-First Approach:** Ensures that the page is optimized for mobile devices.
+- **Product Section:** Showcases the product and its benefits with an image and description.
+- **Review Section:** Includes a testimonial from a satisfied customer.
+- **Interactive Elements:** Includes hover effects and accessible components such as buttons and tooltips.
+- **Footer Section:** Provides additional navigation options and social media links.
+
+## Technologies Used
+
+- **Next.js:** A React framework for production.
+- **Tailwind CSS:** For styling and responsive design.
+- **React Icons:** Used for social media icons in the footer.
+
+## Installation
+
+To get this project running locally, follow these steps:
 
 ```bash
+git clone https://github.com/duressa-feyissa/Puriear.git
+
+# Navigate into the project directory
+cd puriear-landing-page
+s
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
